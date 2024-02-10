@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Tutoring Pricing";
+}
+<h1>@ViewData["Title"]</h1>
+<br />
+
+<h4>Alright so you think you have what it takes to be the next Alpha Lax Bro?</h4>
+
+<p>We'll see about that...</p>
+<br /> <br />
+
+<h3>Hourly Tutoring Calculator</h3>
+<div>
+    <label for="hours">Number of Hours Needed:</label>
+    <input type="number" id="hours" min="0">
+</div>
+<div>
+    <label for="rate">Hourly Rate ($):</label>
+    <input type="text" id="rate" value="20" readonly>
+</div>
+<div>
+    <button id="calculateBtn">Calculate Total</button>
+</div>
+<div>
+    <label for="total">Total Amount ($):</label>
+    <input type="text" id="total" readonly>
+</div>
+<br /> <br />
+<div>
+    <a href="/">Back to Home</a>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/site.js"></script>
